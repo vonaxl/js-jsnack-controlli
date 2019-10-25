@@ -11,5 +11,7 @@ while (i<6) {
         n.push(x);        
     }
     console.log(n);
+    document.getElementById('ris').innerHTML = n;
+
     i++;
 }
