@@ -7,7 +7,7 @@ var i=0;
 while (i<6) {
 
     var x = parseInt(prompt("Inserisci un numero"));
-    if (x%2==0) {
+    if (x%2!=0) {
         n.push(x);        
     }
     console.log(n);
